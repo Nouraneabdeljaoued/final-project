@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    line-height: 1.6;
+    background-color: #c6f5d1; /* Light background color */
+    
+
+}
+
+/* Navigation styles */
+nav {
+    background-color: #000; /* Dark background for navigation */
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #93a3eb; /* Light blue background on hover */
+    color: #000; /* Dark text color on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+    font-weight: bold;
+}
+
+/* Main container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styles */
+.section p {
+    padding: 20px 0;
+    text-align: center;
+    font-family: bold;
+    color: #000;
+}
+
+.section h6 {
+    font-size: 18px;
+    color: #ffd700; /* Gold color for subheadings */
+     font-weight: bold;
+}
+
+.section h4 {
+    font-size: 24px;
+    color: #86c4dd;
+    font-weight: bold;
+}
+
+
+  

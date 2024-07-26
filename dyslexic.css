@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+        font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+        background-color: #f5f5f5;
+    color: #000;
+    padding: 20px;
+}
+
+nav {
+    background-color: #000;
+    border-bottom: 2px solid #ddd;
+    padding: 20px ;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    color: #fff;
+}
+
+nav ul li {
+    color: white;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007BFF;
+}
+
+/* Section Styling */
+#dyslexic {
+        background-color: #c6f5d1; /* Light background color */
+        border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#dyslexic h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #139cdb; /* Medium gray for sub-headings */
+}
+
+#dyslexic h4 {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #139cdb;
+
+}
+
+#dyslexic p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #000;
+}
+#dyslexic h6{
+        font-size: 20px;
+        margin-top: 20px;
+        color: #ffd700; /* Gold color for subheadings */
+}
+        
+
+
+
+
+
+
+button {
+    cursor: pointer;
+    font-family: 'Playwrite CL', sans-serif;
+}
+
+button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}

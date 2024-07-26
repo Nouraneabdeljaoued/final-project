@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    background-color: #c6fac9; /* Dark background for the whole page */
+    color: #f0f0f0; /* Light text color for readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container for the content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #c6fac9; /* Dark background for the content */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Image styles */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Heading styles */
+h5, h6 {
+    color: #000; /* Light text color for headings */
+    text-align: center;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h6 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+h4 {
+    padding-left: 20px;
+    color: #ffd700; /* Gold color for subheadings */
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+p {
+    padding-left: 20px;
+    font-size: 1em;
+    color: #000; /* Slightly lighter text for paragraphs */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Button styles */
+button {
+    
+    width: 15%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent; /* Primary button color */
+    color: #000; /* Button text color */
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    justify-items: start;
+    align-items: start;
+}
+body {
+background-image: url('pexels-steve-24389655.jpg');
+background-size: cover; /* Ensures the image covers the entire background */
+background-position: center; /* Centers the image */
+background-repeat: no-repeat; /* Prevents the image from repeating */
+height: 100vh; /* Full viewport height */
+margin: 0; /* Remove default margin */
+}
+
+
+button:hover {
+    background-color: #ffffff; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+}
+

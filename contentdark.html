@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readower</title>
+    <link rel="stylesheet" href="contentdark.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+    </style>
+</head>
+<a href="content.html" class="button">white theme</a>
+
+<body class="dark-theme">
+    <button class="theme-switcher" id="themeSwitcher">Switch to Light Theme</button>
+
+    <div class="container">
+        <div class="navbar">
+            <h6>Welcome back, xxxx!</h6>
+            <h4>What do you want to read today?</h4>
+        </div>
+
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Enter your search query...">
+            <button type="button" id="searchButton" class="search-button">Search</button>
+        </div>
+
+        <div id="searchResults">
+            <!-- Search results will be displayed here -->
+        </div>
+
+        <div class="category-list">
+            <h3>Categories:</h3>
+            <ul>
+                <li>Novel</li>
+                <li>Self-love</li>
+                <li>Science</li>
+                <li>Romance</li>
+                <li>Crime</li>
+            </ul>
+        </div>
+
+        <div class="book-list">
+            <div class="book-item">
+                <img src="Twisted Love - Special Edition by Ana Huang Paperback _ Indigo Chapters.jpeg" alt="Twisted Love">
+                <h6>Twisted Love</h6>
+                <h6>Ana Huang</h6>
+            </div>
+            <div class="book-item">
+                <img src="The Five Love Languages by Gary Chapman - BookBub.jpeg" alt="The Five Love Languages">
+                <h6>The Five Love Languages</h6>
+                <h6>Gary Chapman</h6>
+            </div>
+            <div class="book-item">
+                <img src="téléchargement.jpeg" alt="Ugly Love">
+                <h6>Ugly Love</h6>
+                <h6>Colleen Hoover</h6>
+            </div>
+                <div class="book-list">
+                    <div class="book-item">
+                        <a href="book.html">
+                            <img src="23.webp" alt="Catcher in the Rye">
+                        </a>
+                        <h6>Catcher in the Rye</h6>
+                        <h6>J. D. Salinger</h6>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const searchButton = document.getElementById('searchButton');
+        const searchInput = document.getElementById('searchInput');
+        const searchResultsContainer = document.getElementById('searchResults');
+        const themeSwitcher = document.getElementById('themeSwitcher');
+        
+        searchButton.addEventListener('click', () => {
+            const searchTerm = searchInput.value.trim();
+            if (searchTerm !== '') {
+                searchResultsContainer.innerHTML = `<p>Search results for: <strong>${searchTerm}</strong></p>`;
+            } else {
+                searchResultsContainer.innerHTML = '<p>Please enter a search term.</p>';
+            }
+        });
+
+        searchInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                searchButton.click();
+            }
+        });
+
+        themeSwitcher.addEventListener('click', () => {
+            document.body.classList.toggle('dark-theme');
+            themeSwitcher.textContent = document.body.classList.contains('dark-theme') ? 'Switch to Light Theme' : 'Switch to Dark Theme';
+        });
+    </script>
+</body>
+</html>

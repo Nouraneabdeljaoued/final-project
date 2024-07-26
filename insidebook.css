@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    background-color: #f0f8f0; /* Light background color */
+    color: #000; /* Black text color */
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #c6f5d1;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #93a3eb;
+}
+
+/* Main content styles */
+#book-details {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h5 {
+    font-size: 2em;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h6 {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    color: #000;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar {
+    background-color: #4caf50;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 0%;
+    background-color: transparent;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 60vh;
+    align-items: start;
+    justify-content: flex-start;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
+
+    h6 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    .progress {
+        max-width: 100%;
+    }
+}
+body {
+    background-image: url('pexels-steve-24389655.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+

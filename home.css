@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+    line-height: 1.6;
+    
+    color: #000; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    background-color: #000; /* Dark background for navigation */
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+    font-weight: bold; /* Added bold text for better visibility */
+}
+
+nav ul li a:hover {
+    background-color: #000; /* Light blue background on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+/* Section styles */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* White background for section */
+    padding: 20px;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for section */
+    font-weight: bold;
+}
+
+section h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px; /* Increased space below heading */
+    color: #0f22d3;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #139cdb; /* Medium gray for sub-headings */
+    text-align: center;
+}
+
+section h4 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #86c4dd;
+    text-align: start;
+}
+
+section p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #000; /* Lighter gray for paragraph text */
+    text-align: center;
+    font-weight: bold
+}
+
+section h6 {
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ffd700; /* Gold color for subheadings */
+    text-align: start;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000; /* Dark background for footer */
+    color: #fff; /* White text for footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+}

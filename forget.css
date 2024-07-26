@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+
+body {
+        font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+        background-color: #f0f4f8; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#forget {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#forget h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#forget p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#forgotPasswordForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#forgotPasswordForm label {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+#forgotPasswordForm input[type="email"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#forgotPasswordForm input[type="email"]:focus {
+    border-color: #007bff; /* Blue border on focus */
+}
+
+#forgotPasswordForm button {
+    padding: 12px;
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+}
+
+#forgotPasswordForm button:hover {
+    background-color: #000000; /* Darker blue on hover */
+}
+
+#forgotPasswordForm button a {
+    color: #fff;
+    text-decoration: none;
+}
+.button {
+        display: inline-block;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .button:hover {
+        background-color: #000000;
+    }

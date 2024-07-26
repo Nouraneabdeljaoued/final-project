@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+CL:wght@100..400&display=swap');
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+        font-family: 'Edu AU VIC WA NT Hand', sans-serif;
+        line-height: 1.6;
+    background-color: #c6f5d1;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    
+}
+
+/* Navigation styles */
+nav {
+    background-color: #000; /* Dark background for navigation */
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between menu items */
+}
+
+nav ul li a {
+    color: #fff; /* White text for navigation links */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #93a3eb; /* Light blue background on hover */
+    color: #000; /* Dark text color on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+/* Section styles */
+section#about {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#about p{
+        margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    content: 10px;
+    font-weight: bold;
+    color: #000
+}
+
+section#about h6 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    content: 10px;
+    font-weight: bold;
+    color: #adfde9
+
+}
+
+section#about h1,
+section#about h4 {
+    font-size: 2em;
+    color: #86c4dd;
+    font-weight: bold;
+    font-weight: bold;
+
+}
+
+section#about h6 {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+}
+
+section#about p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    section#about {
+        padding: 10px;
+    }
+}
